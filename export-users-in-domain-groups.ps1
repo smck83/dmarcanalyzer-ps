@@ -1,3 +1,5 @@
+# This script will pull a list of all Domain Groups from your DMARC Analyzer account and output to CSV all the users in each group.
+# NOTE: Depending on the number of user accounts, additional logic may be required to handle pagination.
 $token = "<--API-TOKEN-->" # Personal Access Token, if you have account API Key and Secret you wlil need to dynamically generate the API-TOKEN via standard JWT auth
 $custid = "<--CUST-ID-->"  # When you login to the web interface, the customer ID will be visible in the URL path https://app.dmarcanalyzer.com/customers/<--CUST-ID-->/home
 
